@@ -1,0 +1,57 @@
+{
+  "name": "react-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-app-rewired start && webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@pixi/core": "^7.0.5",
+    "@pixi/display": "^7.0.5",
+    "@pixi/math": "^7.0.5",
+    "@pixi/utils": "^7.0.5",
+    "events": "^3.3.0",
+    "facefilter": "^3.2.1",
+    "path": "^0.12.7",
+    "pixi-live2d": "^1.2.1",
+    "pixi-live2d-display": "^0.3.1",
+    "pixi.js": "^5.0.0",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "stream": "^0.0.2",
+    "three": "^0.112.0",
+    "three-gltf-loader": "^1.111.0",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
